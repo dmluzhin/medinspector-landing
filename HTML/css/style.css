@@ -41,6 +41,10 @@
     --primary: #f52a50;
     --primary100: #ff5c79;
     --primary200: #ff2a58;
+
+    --green: #0ACF83;
+    --orange: #FAAD14;
+    --danger: #EF6363;
     
     --white: #ffffff;
     --black: #222335;
@@ -88,6 +92,18 @@ p {
     color: var(--primary) !important;
 }
 
+.text-green {
+    color: var(--green);
+}
+
+.text-orange {
+    color: var(--orange);
+}
+
+.text-warning {
+    color: var(--danger) !important;
+}
+
 /*==================
     02.HELPER
 ====================*/
@@ -133,6 +149,18 @@ p {
     text-align: center;
     border-radius: 50px;
     font-weight: 700;
+}
+
+.section_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_logo img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 16px;
 }
 
 .text_custom {
@@ -289,7 +317,7 @@ p {
 }
 
 .custom_nav_menu .navbar-brand.logo img {
-    height: 26px;
+    height: 36px;
 }
 
 .stickyadd.custom_nav_menu {
@@ -451,6 +479,19 @@ p {
     border: 1px dashed #e7e7e7;
     padding: 30px;
     height: 100%;
+}
+
+.about_content_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: var(--primary);
+}
+
+.about_content_icon i {
+    font-size: 128px;
 }
 
 .about_icon i {
@@ -1449,7 +1490,7 @@ textarea.form-control {
 }
 
 .business_footer_logo img, .minimal_footer_logo img, .footer_logo_software img {
-    max-width: 150px;
+    max-width: 200px;
 }
 
 /*---------------------
@@ -1476,6 +1517,25 @@ textarea.form-control {
 .footer_alt_cpy,
 .text-footer {
     color: #6c757d;
+}
+
+.footer_link {
+    color: var(--white);
+    text-decoration: underline !important;
+}
+
+.footer_link:hover {
+    color: var(--primary);
+    text-decoration: underline !important;
+}
+
+.footer_download {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_download img {
+    width: 100px;
 }
 
 .subcribe_newslatter_footer input {
