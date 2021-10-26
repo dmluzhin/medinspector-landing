@@ -769,7 +769,7 @@ p {
 }
 
 .download_division img {
-    max-width: 180px;
+    max-width: 160px;
 }
 
 .description_img img {
@@ -880,6 +880,12 @@ p {
 .landing_features_hint:hover {
     animation: none;
     border-color: var(--primary);
+}
+
+@media screen and (max-width: 767px) {
+    .landing_features_hint {
+        display: none;
+    }
 }
 
 @-webkit-keyframes pulse {
