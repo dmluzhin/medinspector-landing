@@ -104,6 +104,14 @@ p {
     color: var(--danger) !important;
 }
 
+ul, ol {
+    padding-left: 20px;
+}
+
+strong {
+    font-weight: 500;
+}
+
 /*==================
     02.HELPER
 ====================*/
