@@ -51,7 +51,7 @@
     --bgCoverOn: rgba(34, 35, 53, 0.8);
 }
 
-body {
+html, body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
@@ -1834,6 +1834,18 @@ textarea.form-control {
     }
 }
 
+.img-fluid {
+    width: 100%;
+}
+.error {
+    color: red;
+}
+
+.success {
+    display: block;
+    color: green;
+    margin-top: 10px;
+}
 @media (min-width: 830px)  {
     .app_home_landing  img {
         max-width: 300px;
@@ -1844,4 +1856,11 @@ textarea.form-control {
   .home_title {
     font-size: 26px;
   }
+}
+
+@media screen and (max-width: 992px) {
+    .flex-reversing {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
